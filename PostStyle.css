@@ -18,18 +18,22 @@ header{
     display: flex; 
 }
 
-.container-header{
-    width: 100%;
+.container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
-h3{
+a{
     color: #FDFDFD;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
+    text-decoration: none;
 
 }
 
@@ -41,6 +45,7 @@ h3{
 .logo{
     display: flex;
     color: #FDFDFD;
+    margin-right: 400px;
 
 }
 
@@ -78,16 +83,10 @@ footer{
     justify-content: flex-end;
 }
 
-.logo-footer{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    
-}
-
 .container-logo-nome{
     display: flex;
     justify-content: center;
+    margin-right: 200px;
 }
 .logo-img-nome{
     display: flex;
@@ -114,6 +113,7 @@ footer{
     justify-content: flex-start;
     text-align: left;
     width: 71px;
+    margin-right: 300px;
     
 }
 
