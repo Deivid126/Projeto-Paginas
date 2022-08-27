@@ -400,4 +400,83 @@ footer a{
         flex-direction: column;
         height: 500px;
     }
+
+    .linksfooter{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .banner img{
+        display:none;        
+    }
+
+    .texto-banner{
+        width:380px;
+    
+    }
+
+    .cursos{
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        height: 1700px;
+        margin-left: -60px;
+    }
+
+    .depoimentos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont{
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+
+    .mais {
+        height: 1500px;
+ 
+    }
+
+    .mais h3{
+        width: 380px;
+        padding-left: 80px;
+    }
+
+    main{
+        width: 480px;
+    }
+
+    .poupando{
+        margin: 40px 0px;
+
+    }
+
+    .depoimentos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 380px;
+        height: 1800px;
+        padding: 0px;
+        margin-left: -20px;
+  
+    }
+
+
+    .titulo-dep{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .dep-3{
+ 
+        margin-left: 95px;
+    }
+
+
 }
